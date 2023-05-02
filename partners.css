@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-item{
+font-weight: 700;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+header{
+    background-color: black;
+}
+h1{
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 5% 15% !important;
+}
+.section{
+    margin: 6% 17%;
+}
+
+.img-section{
+    width: 40%;
+}
+.txt-section{
+    width: 10%;
+}
+
+/* footer */
+.footer{
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.foot-img{
+    width: 100px;
+    margin: 0% 30%;
+}
+.foot-content{
+    width: 30%;
+}
+.link-1{
+width: 30%;
+padding: 1%;
+background-color: rgba(0, 0, 0);
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+}
+.link-2{
+    width: 30%;
+padding: 1%;
+background-color: rgba(0, 0, 0);
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+}
+.link-3{
+width: 30%;
+padding: 1%;
+background-color: rgba(0, 0, 0);
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+}
+.link-4{
+    width: 30%;
+padding: 1%;
+background-color: rgba(0, 0, 0);
+color: white;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+}
+.last{
+    background-color: black;
+    padding: 5%;
+}
+.last-1{
+    width: 45%;
+    color: white;
+}
+.xp{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.8);
+}
+.last-1 a{
+text-decoration: none !important;
+ font-family: 'poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+color: white;
+}
+.pp{
+font-family: 'Calibri';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.5);
+}
