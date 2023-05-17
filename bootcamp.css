@@ -13,25 +13,72 @@ font-weight: 700;
     color: blue !important;
 }
 header{
-    background-color: black;
+    background-image: url(./Rectangle\ 44\ \(3\).png);
+    height: 48vh;
 }
-h1{
+.header-content{
     font-family: 'Antonio';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    margin: 5% 15% !important;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
 }
-.section{
-    margin: 6% 17%;
+.st-section{
+    margin: 5% 17%;
+    justify-content: space-between;
+}
+.text-section{
+    width: 50%;
+    line-height:1.5rem;
+}
+.pic{
+    width: 35%;
 }
 
+/* main-section */
+.head-section{
+    max-width: 100%;
+    /* width: 100%; */
+    margin: 0% 17%;
+}
+.form-section{
+    width: 63%;
+}
 .img-section{
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.txt-section{
-    width: 10%;
+.check{
+    width: 100%;
+}
+.form-container{
+    width: 90%;
+}
+.email{
+    font-size: small;
+    width: 90%;
+    background-color: rgba(217, 217, 217, 0.3);
+    border-style: none;
+}
+.box{
+    background-color: rgba(217, 217, 217, 0.3);
+    border-style: none;
+}
+.check-2{
+    width: 100%;
+}
+.cell{
+    width: 45%;
+}
+.message{
+    background-color: rgba(217, 217, 217, 0.3);
+    border-style: none;
+    width: 90%;
+}
+.btn-2{
+    margin-top: 5%;
 }
 
 /* footer */
@@ -46,44 +93,8 @@ h1{
 .foot-content{
     width: 30%;
 }
-.link-1{
+.link-1,.link-2,.link-3,.link-4{
 width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-2{
-    width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-3{
-width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-4{
-    width: 30%;
 padding: 1%;
 background-color: rgba(0, 0, 0);
 color: white;

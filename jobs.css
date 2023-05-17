@@ -7,45 +7,32 @@
     text-decoration: none;
 }
 .nav-item{
-    font-weight: 700;
+font-weight: 700;
 }
 .nav-link:hover{
-        color: blue !important;
+    color: blue !important;
 }
 header{
-    background-image: url(./assets/Rectangle\ 44\ \(1\).png);
-    height: 48vh;
-}
-.header-content{
-    font-family: 'Antonio';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-}
-.st-section{
-    margin: 5% 17%;
-    justify-content: space-between;
-}
-.text-section{
-    width: 50%;
-    line-height:1.5rem;
-}
-.pic{
-    width: 35%;
+    background-color: black;
 }
 
-/* forms */
+main{
+    width: 100%;
+    margin:3% 0%;
+}
+.section{
+    width: 73%;
+}
+.section :nth-child(2){
+    width: 28%;
+}
+
 label{
     margin-left: 15%;
 }
-.form-container{
-    width: 100%;
+.check{
     margin-left: 15%;
-}
-.form-section{
-    width: 42%;
-    justify-content: space-between;
+    width: 60%;
 }
 .how{
     margin-left: 15%;
@@ -60,13 +47,6 @@ label{
 .box{
     background-color: rgba(217, 217, 217, 0.3);
     border-style: none;
-}
-.ticks p{
-    margin-left: 15%;
-}
-#ticking{
-    margin-top: 3%;
-    font-weight: 500;
 }
 .check-2{
     margin-left: 15%;
@@ -104,9 +84,6 @@ label{
     margin-left: 15%;
     margin-top: 5%;
 }
-
-
-/* footer */
 .footer{
     padding: 2%;
     background-color: rgba(0, 0, 0, 0.63);
@@ -118,44 +95,8 @@ label{
 .foot-content{
     width: 30%;
 }
-.link-1{
+.link-1,.link-2,.link-3,.link-4{
 width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-2{
-    width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-3{
-width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-4{
-    width: 30%;
 padding: 1%;
 background-color: rgba(0, 0, 0);
 color: white;

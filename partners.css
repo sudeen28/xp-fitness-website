@@ -15,15 +15,26 @@ font-weight: 700;
 header{
     background-color: black;
 }
-.text-section{
-    width: 100%;
-    margin-top: 7%;
-    margin-bottom: 15%;
+h1{
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    margin: 5% 15% !important;
 }
-.text-content{
-    width: 70%;
-   
+.section{
+    margin: 6% 17%;
 }
+
+.img-section{
+    width: 40%;
+}
+.txt-section{
+    width: 10%;
+}
+
+/* footer */
 .footer{
     padding: 2%;
     background-color: rgba(0, 0, 0, 0.63);
@@ -35,44 +46,8 @@ header{
 .foot-content{
     width: 30%;
 }
-.link-1{
+.link-1,.link-2,.link-3,.link-4{
 width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-2{
-    width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-3{
-width: 30%;
-padding: 1%;
-background-color: rgba(0, 0, 0);
-color: white;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-line-height: 22px;
-text-align: center;
-}
-.link-4{
-    width: 30%;
 padding: 1%;
 background-color: rgba(0, 0, 0);
 color: white;
