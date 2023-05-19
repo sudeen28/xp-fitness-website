@@ -27,7 +27,7 @@ font-weight: 700;
 font-size: 20px;
 text-align: center;
 color: white;
-background-color: rgba(0, 0, 0, 0.32);
+background-color: rgba(255, 0, 0, 0.32);
 padding: 1%;
 width: 20%;
 }
@@ -171,4 +171,53 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media (max-width:768px) {
+     header {
+        height: auto;
+        background-size: cover;
+    }
+    .header-content h1{
+        display: none;
+    }
+    .new{
+        display: none;
+    }   
+
+    .m-header{
+       width: 50rem; 
+       justify-content: center;
+    }
+    .m-header h1{
+        font-size: x-large;
+    }
+    .sixh{
+        font-size: small;
+        width: 18rem;
+        align-items: center;
+    }
+    .great{
+        font-size: x-large;
+        margin-left: 2%;
+    }
+    .staff h1{
+        font-size: x-large;
+    }
+    .exp{
+        margin: 0%;
+    }
+    .exp p{
+        width: 45rem;
+    }
+    .last{
+        height: 18rem;
+        display: flex;
+        
+    }
+    .last-1{
+        flex-direction: column;
+    }
+
 }
