@@ -112,3 +112,24 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
+
+/* mobile Responsive */
+@media (max-width:768px) {
+    header {
+       height: auto;
+       background-size: cover;
+   }
+   .header-content h1{
+       display: none;
+   }
+   .new{
+       display: none;
+   }  
+   .content h1{
+       font-size: x-large;
+       margin: 0% 3%;
+   } 
+   .list, .train{
+    margin: 0% 2%;
+   }
+}
