@@ -147,6 +147,14 @@ color: rgba(255, 255, 255, 0.5);
     margin: 0% 2%;
     width: fit-content;
     }
+    .last{
+        height: 18rem;
+        display: flex;
+        
+    }
+    .last-1{
+        flex-direction: column;
+    }
     body{
        overflow-x: hidden; 
     }

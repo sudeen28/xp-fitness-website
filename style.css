@@ -225,7 +225,7 @@ color: rgba(255, 255, 255, 0.5);
         flex-direction: column;
     }
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
 
 }
