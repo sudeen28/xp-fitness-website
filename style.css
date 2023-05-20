@@ -177,6 +177,10 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
+.carousel-inner{
+    margin-left:5%;
+    overflow-x: hidden;
+}
 
 /* mobile Responsive */
 @media (max-width:768px) {

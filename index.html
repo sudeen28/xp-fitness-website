@@ -24,8 +24,8 @@
           </button>
             <div class="collapse navbar-collapse offset-4" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link text-light" data-bs-toggle="dropdown" aria-expanded="false" role="button" href="#"> GYM </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light" data-bs-toggle="dropdown" aria-expanded="false" role="button" href="#"> GYM </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-light"aria-current="page" href="./personal training.html">PERSONAL TRAINING</a>
@@ -37,7 +37,7 @@
                 <a class="nav-link text-light"aria-current="page" href="./strongman.html">STRONGMAN</a>
               </li>
               </ul>
-              <button class="btn btn-outline-light mt-5 rounded-0">JOIN</button>
+              <button class="btn btn-outline-light rounded-0">JOIN</button>
           </div>
         </div>
       </nav> 
@@ -50,30 +50,7 @@
 
 <!-- offcanvas -->
 <!-- offcanvas -->
-
-<div class="offcanvas offcanvas-end w-75" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="staticBackdropLabel"></h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <li class="nav-item nav-item-mobile">
-        <a class="nav-link active"aria-current="page" href="/">GYM</a>
-      </li><br>
-      <li class="nav-item nav-item-mobile">
-        <a class="nav-link active"aria-current="page" href="./personal training.html">PERSONAL TRAINING</a>
-      </li><br>
-      <li class="nav-item nav-item-mobile">
-        <a class="nav-link active"aria-current="page" href="./powerlifting.html">POWERLIFTING</a>
-      </li><br>
-      <li class="nav-item  nav-item-mobile">
-        <a class="nav-link active"aria-current="page" href="./strongman.html">STRONGMAN</a>
-      </li>
-         <div class="login text-center">
-        <button class="btn btn-outline-dark w-50 mt-5 rounded-0">JOIN</button>
-      </div>
-    </div>
-    </div>
+<!-- offcanvas -->
 
 
 <!-- MAIN -->
@@ -135,10 +112,25 @@
     </ol>
     <div class="great">GREAT REVIEWS</div>
 </div>
-
-<div class="giv-up offset-4 mt-3">
-    <img class="img-fluid" src="./assets/WhatsApp Image 2023-04-26 at 16.02.00.jpeg" alt="" width="500px">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/WhatsApp Image 2023-04-26 at 16.02.00.jpeg" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/WhatsApp Image 2023-04-26 at 16.02.00.jpeg" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/WhatsApp Image 2023-04-26 at 16.02.00.jpeg" class="d-block w-50" alt="...">
+    </div>
+  </div>
 </div>
+
+
+
+<!-- <div class="giv-up offset-4 mt-3">
+    <img class="img-fluid" src="./assets/WhatsApp Image 2023-04-26 at 16.02.00.jpeg" alt="" width="500px">
+</div> -->
 <div class="staff"><h1>STAFF AND TRAINERS</h1></div>
 <div class="grid-container-2 row mx-auto mt-4 ">
     <div class="grid-img col-3"><img class="img-fluid" src="/assets/WhatsApp Image 2023-04-26 at 16.02.00 (3).jpeg" alt="">
@@ -190,8 +182,6 @@
     powered by squarespace
 </div>
 </div>
-
-<!-- Bootstrap js cdn -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
