@@ -23,6 +23,11 @@ font-weight: 700;
 font-size: 40px;
 line-height: 52px;
 }
+.navbar-toggler:focus{
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
 .st-section{
     margin: 5% 17%;
     justify-content: space-between;

@@ -77,7 +77,7 @@
     <div class="pers mt-5"><h1>PERSONAL TRAINERS HILTON HEAD,SC</h1></div>
     <P class="par">Personal training is the ultimate service for guidance and motivation to help you reach your fitness goals. Benefits: losing weight / weight loss, tone up,
       build muscle, improve athleticism, posture, balance, flexibility, endurance, and maximal strength.</P>
-      <h1>MONTHLY PACKAGES</h1>
+      <h1 class="monthly">MONTHLY PACKAGES</h1>
       <div class="solo text-center mt-5">
         <pre >
           <span class="soloo">solo 1:1 training</span>
@@ -120,22 +120,34 @@
 
               <!-- boxes,forms -->
               <!-- boxes,forms -->
-              <label for class="d-flex ">Name*</label>
+              <div class="name d-none d-lg-block">
+                <label for class="d-flex ">Name*</label>
                     <div class="check d-flex justify-content-between">
                      <div><input class="box" type="text" size="50" style="height: 40px;" >
                       <p><small>first name</small></p></div>
                     <div><input class="box" type="text" size="50" style="height: 40px;" >
                       <p><small>last name</small></p></div>
                   </div>
-
-                 <div> <label for="">Age</label>
-                  <p class="how"><small>how old are you</small></p>
-                  <input class="how2" type="text" size="120" style="height: 40px;" ></div><br>
+              </div>
                   
-                  <div><label for="">Email</label><br>
-                    <input class="how2"type="text" size="120" style="height: 40px;" ></div><br>
+                 
 
-                    <label for class="d-flex ">phone*</label>
+                 <div class="d-none d-lg-block">
+                  <div><label for="">Age</label>
+                    <p class="how"><small>how old are you</small></p>
+                    <input class="how2" type="text" size="50" style="height: 40px;" ></div><br>
+                 </div>
+                 
+                
+                  
+                  <div class="d-none d-lg-block">
+                    <label for="">Email</label><br>
+                    <input class="how2"type="text" size="120" style="height: 40px;" ></div><br>
+                  
+                    
+
+                    <div class=" d-none d-lg-block">
+                      <label for class="d-flex ">phone*</label>
                     <div class="check-2 d-flex justify-content-between">
                       <div><input class="box" type="text" size="3" style="height: 40px;" >
                        <p><small>###</small></p></div>
@@ -144,10 +156,52 @@
                      <div><input class="box" type="text" size="5" style="height: 40px;" >
                        <p><small>###</small></p></div>
                    </div>
+                    </div>
+                   
+                  
 
-                   <div>
+                   <div class="d-none d-lg-none">
                     <label for="">tell us a little about your self</label><br>
                     <input  class="box-3" type="text" size="120" style="height: 100px;" >
+                </div><br>
+                  
+                <!--form for Mobile -->
+                <div class="name d-lg-none">
+                  <label for class="names d-flex ">Name*</label>  
+                  <div class=" d-flex flex-column justify-content-between">
+                     <div><input class="box" type="text" size="30" style="height: 40px;" >
+                      <p><small>first name</small></p></div>
+                    <div><input class="box" type="text" size="30" style="height: 40px;" >
+                      <p><small>last name</small></p></div>
+                  </div>
+                 </div>
+
+                 <div class="Age d-lg-none ">
+                  <div class="Age"><label for="">Age</label>
+                    <p class="How"><small>how old are you</small></p>
+                    <input class="box" type="text" size="30" style="height: 40px;" ></div><br>
+                 </div>
+
+                 <div class="Email d-lg-none">
+                  <div><label for="">Email</label><br>
+                    <input class="how2"type="text" size="40" style="height: 40px;" ></div><br>
+                </div>
+
+                <div class="phone d-lg-none">
+                  <label for class="d-flex ">phone*</label>
+                 <div class="check-2-m d-flex justify-content-between">
+                   <div><input class="box" type="text" size="3" style="height: 40px;" >
+                    <p><small>###</small></p></div>
+                  <div><input class="box" type="text" size="3" style="height: 40px;" >
+                    <p><small>###</small></p></div>
+                  <div><input class="box" type="text" size="5" style="height: 40px;" >
+                    <p><small>###</small></p></div>
+                </div>
+                 </div>
+                
+                <div class="ursef d-lg-none">
+                    <label for="">tell us a little about your self</label><br>
+                    <input  class="box" type="text" size="30" style="height: 100px;" >
                 </div><br>
 
 

@@ -19,6 +19,11 @@ font-size: 40px;
 line-height: 52px;
 text-align: center;
 }
+.navbar-toggler:focus{
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
 .new{
 
     font-family: 'Antonio';
@@ -173,7 +178,7 @@ font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
 
-
+/* mobile Responsive */
 @media (max-width:768px) {
      header {
         height: auto;

@@ -16,6 +16,11 @@ header{
     background-image: url(./assets/Rectangle\ 34.png);
     height: 48vh;
 }
+.navbar-toggler:focus{
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
 .header-content{
     font-family: 'Antonio';
 font-style: normal;
@@ -208,4 +213,86 @@ font-style: normal;
 font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
+}
+
+/* form_Mobile Responsive */
+.names{
+    margin: 0% 2%;
+}
+.box{
+    margin: 0% 2% !important;
+}
+.Age label{
+    margin: 0% 2%;
+}
+.Email label, .Email input{
+    margin: 0% 2%!important;
+}
+.phone{
+    width: 10px;
+    margin: 0% 2%;
+}
+.ursef label ,.box{
+    margin: 0% 2%!important;
+}
+
+
+/* mobile Resposive */
+@media (max-width:768px) {
+    header {
+       height: auto;
+       background-size: cover;
+   }
+   .header-content h1{
+       display: none;
+   }
+   .new{
+       display: none;
+   }   
+   .pers h1{
+       font-size: x-large;
+       margin: 2%;
+   }
+   .par{
+        width: fit-content;
+        margin-right: 7%;
+   }
+   .monthly{
+    font-size: x-large;
+    align-content: center;
+     }
+    .section-2{
+        width: fit-content;
+        margin-left: 3%;
+        margin-right: 0%;
+    } 
+    .check input{
+
+    }
+   .sixh{
+       font-size: small;
+       width: 18rem;
+   }
+   .great{
+       font-size: x-large;
+       margin-left: 2%;
+   }
+   .staff h1{
+       font-size: x-large;
+   }
+   .exp{
+       margin: 0%;
+   }
+   .exp p{
+       width: 45rem;
+   }
+   .last{
+       height: 18rem;
+       display: flex;
+       
+   }
+   .last-1{
+       flex-direction: column;
+   }
+
 }
