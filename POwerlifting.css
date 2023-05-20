@@ -63,23 +63,6 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 .footer{
     padding: 2%;
@@ -140,3 +123,31 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width:768px) {
+    header {
+       height: auto;
+       background-size: cover;
+   }
+   .header-content h1{
+       display: none;
+   }
+   .new{
+       display: none;
+   }
+   .content{
+    margin: 0%;
+   }   
+   .content h1{
+    font-size: x-large;
+    line-height: 120%;
+    margin: 0% 2%;
+   }
+   .content p{
+    margin: 0% 2%;
+    width: fit-content;
+    }
+    body{
+       overflow-x: hidden; 
+    }
+}    
