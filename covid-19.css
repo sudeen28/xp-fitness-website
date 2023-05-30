@@ -88,3 +88,23 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
+
+/* mobile responsiveness */
+@media (max-width:768px) {
+    .exp{
+        margin: 0%;
+    }
+    .exp p{
+        width: 45rem;
+    }
+    .last{
+        height: 18rem;
+        display: flex;    
+    }
+    .last-1{
+        flex-direction: column;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+}

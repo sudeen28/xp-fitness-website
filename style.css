@@ -32,7 +32,7 @@ font-weight: 700;
 font-size: 20px;
 text-align: center;
 color: white;
-background-color: rgba(255, 0, 0, 0.32);
+background-color: rgba(15, 11, 11, 0.32);
 padding: 1%;
 width: 20%;
 }
@@ -132,7 +132,7 @@ ol{
 .link-1, .link-2, .link-3, .link-4{
 width: 30%;
 padding: 1%;
-background-color: rgba(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.24);
 color: white;
 font-family: 'Poppins';
 font-style: normal;
@@ -141,6 +141,19 @@ font-size: 15px;
 line-height: 22px;
 text-align: center;
 }
+
+.link-1:hover{
+    background-color: #000000;
+}
+.link-2:hover{
+    background-color: #000000;
+}
+.link-3:hover{
+    background-color: #000000;
+}
+.link-4:hover{
+    background-color: #000000;
+} 
 .last{
     background-color: black;
     padding: 5%;
@@ -184,10 +197,10 @@ color: rgba(255, 255, 255, 0.5);
 
 /* mobile Responsive */
 @media (max-width:768px) {
-     header {
-        height: auto;
-        background-size: cover;
-    }
+    header {
+       height: auto;
+       background-size: cover;
+   }
     .header-content h1{
         display: none;
     }
@@ -222,8 +235,7 @@ color: rgba(255, 255, 255, 0.5);
     }
     .last{
         height: 18rem;
-        display: flex;
-        
+        display: flex;    
     }
     .last-1{
         flex-direction: column;

@@ -55,7 +55,7 @@
   </div>
   <div class="offcanvas-body">
     <li class="nav-item nav-item-mobile">
-      <a class="nav-link active"aria-current="page" href="./index.html">GYM</a>
+      <a class="nav-link active"aria-current="page" href="./home.html">GYM</a>
     </li><br>
     <li class="nav-item nav-item-mobile">
       <a class="nav-link active"aria-current="page" href="./personal training.html">PERSONAL TRAINING</a>
@@ -91,14 +91,17 @@
         Vavylogi ladin med brattig fast adat disadogt. Olig antitt nisade och rehara. Anas husk oaktat sunaren alltså exov. 
         </p>
     </div>
-    <div class="pic ">
+    <div class="pic d-none d-lg-none ">
       <img src="./assets/Facility - Img 3.png" alt="">
+    </div>
+    <div class="pic ">
+      <img src="./assets/Facility - Img 3.png" alt="" width="100px" height="300px">
     </div>
    </div>
 
    <!-- boxes,forms -->
-   <label for class="d-flex ">Name*</label>
-   <div class="form-container d-flex">
+   <label for class="d-flex d-none d-lg-block">Name*</label>
+   <div class="form-container d-flex d-none d-lg-block">
     <div class="form-section d-flex">
       <div><input class="box" type="text" size="35" style="height: 40px;" >
        <p><small>first name</small></p></div>
@@ -107,14 +110,16 @@
    </div>
    </div>
 
-<div> <label for="">Age</label>
+<div class=" d-none d-lg-block"> <label for="">Age</label>
  <p class="how"><small>how old are you</small></p>
  <input class="how2" type="text" size="90" style="height: 40px;" ></div><br>
  
- <div><label for="">Email</label><br>
+ <div class="d-none d-lg-block">
+  <label for="">Email</label><br>
    <input class="how2"type="text" size="90" style="height: 40px;" ></div><br>
 
-   <label for class="d-flex ">phone*</label>
+   <div class="d-none d-lg-block">
+    <label for class="d-flex ">phone*</label>
    <div class="check-2 d-flex justify-content-between">
      <div><input class="box" type="text" size="3" style="height: 40px;" >
       <p><small>###</small></p></div>
@@ -123,11 +128,54 @@
     <div><input class="box" type="text" size="5" style="height: 40px;" >
       <p><small>###</small></p></div>
   </div>
+   </div>
 
-  <div>
+  <div class="d-none d-lg-block">
    <label for="">tell us a little about your self</label><br>
    <input  class="box-3" type="text" size="80" style="height: 100px;" >
 </div><br>
+
+
+<div class="form">
+  <div class="d-lg-none">
+    <div class=" d-flex flex-column justify-content-between">
+       <div><input class="box" type="text" size="30" style="height: 40px;" >
+        <p><small>first name</small></p></div>
+      <div><input class="box" type="text" size="30" style="height: 40px;" >
+        <p><small>last name</small></p></div>
+    </div>
+   </div>
+
+   <div class="ge d-lg-none ">
+    <label for="">Age</label>
+      <p class="How"><small>how old are you</small></p>
+      <input class="box" type="text" size="30" style="height: 40px;" ></div><br>
+
+   <div class="mail d-lg-none">
+    <label for="">Email</label><br>
+      <input class="how2"type="text" size="40" style="height: 40px;" ></div><br>
+
+  <div class="phone d-lg-none">
+    <label for class="d-flex ">phone*</label>
+   <div class="check-2-m d-flex justify-content-between">
+     <div><input class="box" type="text" size="3" style="height: 40px;" >
+      <p><small>###</small></p></div>
+    <div><input class="box" type="text" size="3" style="height: 40px;" >
+      <p><small>###</small></p></div>
+    <div><input class="box" type="text" size="5" style="height: 40px;" >
+      <p><small>###</small></p></div>
+  </div>
+   </div>
+  
+  <div class="ursef d-lg-none">
+      <label for="">tell us a little about your self</label><br>
+      <input  class="box" type="text" size="30" style="height: 100px;" >
+  </div><br>
+ </div>
+
+
+
+
 
    <div class="ticks d-flex flex-column">
   <p id="ticking">What improvements are you seeking?</p>

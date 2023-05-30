@@ -25,7 +25,7 @@ header{
 }
 .navbar-toggler:focus{
     text-decoration: none !important;
-    outline: none !important;
+    outline: white !important;
     box-shadow: none !important;
 }
 .st-section{
@@ -171,3 +171,41 @@ font-weight: 400;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.5);
 }
+
+
+@media (max-width:768px) {
+    header {
+       height: auto;
+       background-size: cover;
+    }
+    .st-section{
+        margin: 0%;
+       
+    }
+    .form{
+        margin-left: 3%;
+       }
+    .mail{
+        width: 5%;
+    } 
+    .ge label, .ursef label{
+        margin-left: 3%;
+    }
+    .phone{
+        width: 30px;
+    }
+    .exp{
+        margin: 0%;
+    }
+    .exp p{
+        width: 45rem;
+    }
+    .last{
+        height: 18rem;
+        display: flex;    
+    }
+    .last-1{
+        flex-direction: column;
+    }
+      
+   }
